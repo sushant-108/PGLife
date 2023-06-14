@@ -21,11 +21,12 @@ session_start();
     ?> 
 
     <div class="banner-container">
-        <h2 class="white pb-3">Happiness per Square Foot</h2>
+        <h1 class="white pb-3">Greetings!</h1>
+        <h2 class="white pb-3">Happiness per Square Foot, Guaranteed!</h2>
 
         <form id="search-form" action="property_list.php" method="GET">
             <div class="input-group city-search">
-                <input type="text" class="form-control input-city" id='city' name='city' placeholder="Enter your city to search for PGs" />
+                <input type="text" class="form-control input-city" id='city' name='city' placeholder="Enter your city in India to search for PGs" />
                 <div class="input-group-append">
                     <button type="submit" class="btn btn-secondary">
                         <i class="fa fa-search"></i>
@@ -37,7 +38,7 @@ session_start();
 
     <div class="page-container">
         <h1 class="city-heading">
-            Major Cities
+            Major Cities in India
         </h1>
         <div class="row">
             <div class="city-card-container col-md">
